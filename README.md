@@ -1,10 +1,12 @@
-[![Build Status](https://travis-ci.org/mxro/java-json.svg)](https://travis-ci.org/mxro/java-json)
+[![Build Status](https://travis-ci.org/javadelight/delight-json.svg)](https://travis-ci.org/javadelight/delight-json)
 
-# Java JSON
+# delight-json
 
-[Java JSON](https://github.com/mxro/java-json) is an extremely simple library to render human-readable JSON with Java.
+delight-json is an extremely simple library to render human-readable JSON with Java.
 
-**Why:** A simple and very portable way to generate beautiful, human-readable JSON. 
+**Why:** A simple and very portable way to generate beautiful, human-readable JSON.
+
+delight-json is part of [Java Delight](https://github.com/javadelight/delight-main#java-delight-suite).
 
 ## Usage
 
@@ -125,12 +127,10 @@ This project is compatible with the following environments:
 
 ## Further Resources
 
-- [JavaDocs](http://modules.appjangle.com/java-json/latest/apidocs/)
-- [Project Reports](http://modules.appjangle.com/java-json/latest/project-reports.html)
-- [Documentation with TOC](http://documentup.com/mxro/java-json)
-- [ReadTheDocs](http://java-json.readthedocs.org/en/latest/)
+- [JavaDocs](http://modules.appjangle.com/delight-json/latest/apidocs/)
+- [Project Reports](http://modules.appjangle.com/delight-json/latest/project-reports.html)
+- [Documentation with TOC](http://documentup.com/javadelight/delight-json)
 
-[![Documentation Status](https://readthedocs.org/projects/java-json/badge/?version=latest)](https://readthedocs.org/projects/java-json/?badge=latest)
 
 ## Licenses
 
@@ -138,7 +138,6 @@ This project is compatible with the following environments:
 
 - MIT
 
-see [LICENSE.TXT](https://github.com/mxro/java-json/blob/master/LICENSE.TXT)
 
 
 
