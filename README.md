@@ -97,13 +97,13 @@ String str = json.render();
 
 ```xml
 <dependency>
-    <groupId>de.mxro.json</groupId>
-	<artifactId>java-json</artifactId>
+    <groupId>org.javadelight</groupId>
+	<artifactId>delight-json</artifactId>
 	<version>[latest version]</version>
 </dependency>
 ```
 
-Find latest version [here](http://modules.appjangle.com/java-json/latest/project-summary.html).
+Find latest version [here](http://modules.appjangle.com/delight-json/latest/project-summary.html).
 
 Add repository if required:
 
