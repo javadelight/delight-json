@@ -3,7 +3,7 @@
 	<artifactId>delight-json</artifactId>
 	<version>0.0.3</version>
 	<description>Rendering of simple, human-readable JSON documents.</description>
-	<url>https://github.com/mxro/java-json</url>
+	<url>https://github.com/javadelight/delight-json</url>
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
 		<module.importedPackages>
