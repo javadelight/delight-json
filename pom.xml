@@ -15,7 +15,6 @@
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
 	</properties>
-
 	<!-- Dependent Modules -->
 	<dependencies>
 	
