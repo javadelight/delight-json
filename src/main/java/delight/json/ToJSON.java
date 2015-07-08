@@ -1,4 +1,4 @@
-package de.mxro.json;
+package delight.json;
 
 /**
  * Marks a class which can be rendered to JSON.

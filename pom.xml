@@ -10,7 +10,7 @@
 			org.junit,
 			*
 		</module.importedPackages>
-		<module.exportedPackages>!de.mxro.json.internal*,de.mxro.json*
+		<module.exportedPackages>!delight.json.internal*,delight.json*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>

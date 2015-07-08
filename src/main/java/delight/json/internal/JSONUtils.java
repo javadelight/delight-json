@@ -1,7 +1,7 @@
-package de.mxro.json.internal;
+package delight.json.internal;
 
-import de.mxro.json.JSONArray;
-import de.mxro.json.JSONObject;
+import delight.json.JSONArray;
+import delight.json.JSONObject;
 
 public class JSONUtils {
 

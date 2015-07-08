@@ -1,4 +1,4 @@
-package de.mxro.json;
+package delight.json;
 
 public abstract class JSONArray extends JSON {
 

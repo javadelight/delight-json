@@ -1,7 +1,7 @@
 /**
- * Core classes for library.
+ * Internal classes of library.
  * 
  * @author <a href="http://www.mxro.de">Max Rohde</a>
  *
  */
-package de.mxro.json;
+package delight.json.internal;

@@ -1,11 +1,11 @@
-package de.mxro.json.internal;
+package delight.json.internal;
+
+import delight.json.JSON;
+import delight.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
-
-import de.mxro.json.JSON;
-import de.mxro.json.JSONObject;
 
 public class JSONObjectImpl extends JSONObject {
 

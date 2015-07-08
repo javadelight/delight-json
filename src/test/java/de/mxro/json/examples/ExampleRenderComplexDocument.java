@@ -1,7 +1,7 @@
 package de.mxro.json.examples;
 
-import de.mxro.json.JSON;
-import de.mxro.json.JSONObject;
+import delight.json.JSON;
+import delight.json.JSONObject;
 
 public class ExampleRenderComplexDocument {
 

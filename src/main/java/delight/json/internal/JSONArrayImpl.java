@@ -1,9 +1,9 @@
-package de.mxro.json.internal;
+package delight.json.internal;
+
+import delight.json.JSONArray;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import de.mxro.json.JSONArray;
 
 public class JSONArrayImpl extends JSONArray {
 
