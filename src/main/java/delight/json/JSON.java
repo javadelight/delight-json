@@ -26,6 +26,14 @@ public abstract class JSON {
         return new JSONArrayImpl();
     }
 
+    public static JSONObject forToString(final Object obj) {
+        final JSONObject json = JSON.create();
+
+        json.add("class", obj.getClass());
+
+        return json;
+    }
+
     /**
      * 
      * @return The rendered string representation of this JSON document.
