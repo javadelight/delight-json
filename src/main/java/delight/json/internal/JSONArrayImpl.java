@@ -56,4 +56,9 @@ public class JSONArrayImpl extends JSONArray {
 
     }
 
+    @Override
+    public String toString() {
+        return this.render();
+    }
+
 }

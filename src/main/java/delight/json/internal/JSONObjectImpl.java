@@ -76,4 +76,10 @@ public class JSONObjectImpl extends JSONObject {
         System.out.println(this.render());
     }
 
+    @Override
+    public String toString() {
+
+        return this.render();
+    }
+
 }
