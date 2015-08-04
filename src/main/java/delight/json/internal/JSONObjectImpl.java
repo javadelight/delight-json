@@ -1,6 +1,5 @@
 package delight.json.internal;
 
-import delight.json.JSON;
 import delight.json.JSONObject;
 
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ public class JSONObjectImpl extends JSONObject {
     private final List<Entry<String, Object>> entries;
 
     @Override
-    public JSON add(final String key, final Object value) {
+    public JSONObject add(final String key, final Object value) {
 
         entries.add(new Entry<String, Object>() {
 

@@ -15,7 +15,7 @@ public abstract class JSONObject extends JSON {
      *            instance of {@link JSON} or {@link JSONArray}
      * 
      */
-    public abstract JSON add(String key, Object value);
+    public abstract JSONObject add(String key, Object value);
 
     /**
      * 
