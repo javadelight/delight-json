@@ -29,7 +29,7 @@ public abstract class JSON {
     public static JSONObject forToString(final Object obj) {
         final JSONObject json = JSON.create();
 
-        json.add("class", obj.getClass());
+        json.add("class", obj.getClass().getName());
         json.add("identity", System.identityHashCode(obj));
 
         return json;
