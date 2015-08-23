@@ -30,6 +30,7 @@ public abstract class JSON {
         final JSONObject json = JSON.create();
 
         json.add("class", obj.getClass());
+        json.add("identity", obj)
 
         return json;
     }
