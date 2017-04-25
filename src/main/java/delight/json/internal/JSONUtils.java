@@ -9,7 +9,7 @@ public class JSONUtils {
 
         if (object instanceof String) {
 
-            return "'" + object + "'";
+            return "\"" + object + "\"";
         } else if (object instanceof JSONObject) {
 
             final JSONObject json = (JSONObject) object;
@@ -22,7 +22,7 @@ public class JSONUtils {
             return array.render(indent.length() + 4);
 
         } else {
-            return "'" + object.toString() + "'";
+            return "\"" + object.toString() + "\"";
         }
     }
 
