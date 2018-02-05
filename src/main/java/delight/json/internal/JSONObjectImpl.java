@@ -50,7 +50,7 @@ public class JSONObjectImpl extends JSONObject {
         for (final Entry<String, Object> e : entries) {
             count += 1;
 
-            res += indent + "    \"" + e.getKey() + "\": " + JSONUtils.render(indent, e.getValue()) + "";
+            res += indent + "\"" + e.getKey() + "\": " + JSONUtils.render(indent, e.getValue()) + "";
 
             if (count != entries.size()) {
                 res += ",\n";
@@ -60,7 +60,7 @@ public class JSONObjectImpl extends JSONObject {
 
         }
 
-        res += indent + "}";
+        res += JSONUtils.indent(indentSize-4)+"}";
 
         return res;
 
