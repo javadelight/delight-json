@@ -103,18 +103,11 @@ String str = json.render();
 </dependency>
 ```
 
-Find latest version [here](http://modules.appjangle.com/delight-json/latest/project-summary.html).
+This artifact is available on [Maven Central](https://search.maven.org/#search%7Cga%7C1%7Cdelight-json) and 
+[BinTray](https://bintray.com/javadelight/javadelight/delight-json).
 
-Add repository if required:
+[![Maven Central](https://img.shields.io/maven-central/v/org.javadelight/delight-json.svg)](https://search.maven.org/#search%7Cga%7C1%7Cdelight-json)
 
-```xml
-<repositories>
-	<repository>
-		<id>Appjangle Releases</id>
-		<url>http://maven.appjangle.com/appjangle/releases</url>
-	</repository>
-</repositories>
-```
 
 ## Compatibility
 
